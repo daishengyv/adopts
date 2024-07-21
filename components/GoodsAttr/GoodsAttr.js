@@ -1,0 +1,10 @@
+(global["webpackJsonp"]=global["webpackJsonp"]||[]).push([["components/GoodsAttr/GoodsAttr"],{"12ea":function(t,n,i){},"3f67":function(t,n,i){"use strict";i.d(n,"b",(function(){return e})),i.d(n,"c",(function(){return o})),i.d(n,"a",(function(){}));var e=function(){var t=this.$createElement;this._self._c},o=[]},"54a1":function(t,n,i){"use strict";var e=i("12ea"),o=i.n(e);o.a},"5a0b":function(t,n,i){"use strict";i.r(n);var e=i("c739"),o=i.n(e);for(var r in e)["default"].indexOf(r)<0&&function(t){i.d(n,t,(function(){return e[t]}))}(r);n["default"]=o.a},b122:function(t,n,i){"use strict";i.r(n);var e=i("3f67"),o=i("5a0b");for(var r in o)["default"].indexOf(r)<0&&function(t){i.d(n,t,(function(){return o[t]}))}(r);i("54a1");var u=i("828b"),s=Object(u["a"])(o["default"],e["b"],e["c"],!1,null,"1642ffeb",null,!1,e["a"],void 0);n["default"]=s.exports},c739:function(t,n,i){"use strict";(function(t){Object.defineProperty(n,"__esModule",{value:!0}),n.default=void 0;var i={data:function(){return{isShow:!1,AttrIndex:0,SizeIndex:0,AttrSizeList:[{index:0,attr:"颜色",SizeList:[{index:0,size:"白色"},{index:1,size:"黑色"},{index:2,size:"粉丝"},{index:3,size:"灰色"}]},{index:0,attr:"尺码",SizeList:[{index:0,size:"M尺码"},{index:1,size:"L尺码"},{index:2,size:"XL尺码"},{index:3,size:"XXL尺码"}]}],BuyType:0}},methods:{show:function(t){this.BuyType=t,this.isShow=!0},hide:function(){this.isShow=!1},onStop:function(){},onAttrSize:function(t,n,i,e){this.AttrSizeList[i].index=e,this.AttrIndex=t.index,this.SizeIndex=n.index},onConfirm:function(n){t.navigateTo({url:"/pages/ConfirmOrder/ConfirmOrder"})}}};n.default=i}).call(this,i("df3c")["default"])}}]);
+;(global["webpackJsonp"] = global["webpackJsonp"] || []).push([
+    'components/GoodsAttr/GoodsAttr-create-component',
+    {
+        'components/GoodsAttr/GoodsAttr-create-component':(function(module, exports, __webpack_require__){
+            __webpack_require__('df3c')['createComponent'](__webpack_require__("b122"))
+        })
+    },
+    [['components/GoodsAttr/GoodsAttr-create-component']]
+]);
